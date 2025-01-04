@@ -7,7 +7,7 @@ function SearchBox() {
         <div className='SearchBox'>
          <h3>Search for your city weather</h3>
          <form>
-         <TextField id="city" label="City Name" variant="outlined" value={city} />
+         <TextField id="city" label="City Name" variant="outlined"/>
          <br></br>
          <br></br>
          <Button variant="contained" type="submit">Search</Button>
